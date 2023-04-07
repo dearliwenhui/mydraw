@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T07:55:27.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HFTNJqhpKLYFNXPzFaCq" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T08:08:14.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tnVk8GKRDVqDjffhu6PP" version="21.1.4" type="github">
   <diagram name="第 1 页" id="dYUoFG49znBWoF7892X2">
     <mxGraphModel dx="1440" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="x_W76neEEtvd7lcD01PX-147" value="分页条件loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#fff2cc;strokeColor=default;swimlaneFillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="x_W76neEEtvd7lcD01PX-147" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=none;" vertex="1" parent="1">
           <mxGeometry x="154" y="1314" width="1080" height="280" as="geometry" />
         </mxCell>
         <mxCell id="x_W76neEEtvd7lcD01PX-117" value="CDP JOB Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -17,7 +17,7 @@
           <mxGeometry x="454" y="980" width="220" height="985" as="geometry" />
         </mxCell>
         <mxCell id="x_W76neEEtvd7lcD01PX-120" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="x_W76neEEtvd7lcD01PX-119">
-          <mxGeometry x="105" y="104" width="10" height="40" as="geometry" />
+          <mxGeometry x="105" y="104" width="10" height="53" as="geometry" />
         </mxCell>
         <mxCell id="x_W76neEEtvd7lcD01PX-136" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="x_W76neEEtvd7lcD01PX-119">
           <mxGeometry x="105" y="359" width="10" height="80" as="geometry" />
@@ -31,7 +31,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-124" value="&lt;div&gt;1. 通过 CDP_CUSTOMER_SEGMENT_CALCULATION&amp;nbsp;&lt;/div&gt;&lt;div&gt;的Created字段查询当天是否有新的数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_W76neEEtvd7lcD01PX-121">
+        <mxCell id="x_W76neEEtvd7lcD01PX-124" value="&lt;div&gt;1. 通过 CDP_CUSTOMER_SEGMENT_CALCULATION&lt;/div&gt;&lt;div&gt;/&amp;nbsp;CDP_CUSTOMER_SEGMENT_IMPORT&lt;/div&gt;&lt;div&gt;查询当天是否有新的数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_W76neEEtvd7lcD01PX-121">
           <mxGeometry x="-0.0298" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -41,6 +41,7 @@
             <mxPoint x="554" y="1124" as="sourcePoint" />
             <mxPoint x="244" y="1164" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="477" y="1135" />
               <mxPoint x="514" y="1124" />
               <mxPoint x="444" y="1164" />
             </Array>
@@ -225,6 +226,15 @@
         </mxCell>
         <mxCell id="x_W76neEEtvd7lcD01PX-171" value="tx" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="153" y="1620" width="1085" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="x_W76neEEtvd7lcD01PX-178" value="分页条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="151" y="1351" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="x_W76neEEtvd7lcD01PX-179" value="Loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1031" width="1206" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="x_W76neEEtvd7lcD01PX-180" value="list of segmentId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1065" width="105" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
