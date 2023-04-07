@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T07:39:46.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sfzEaxkgSiBm8aNcnunL" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T07:55:27.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HFTNJqhpKLYFNXPzFaCq" version="21.1.4" type="github">
   <diagram name="第 1 页" id="dYUoFG49znBWoF7892X2">
     <mxGraphModel dx="1440" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,60 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="x_W76neEEtvd7lcD01PX-147" value="分页条件loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#fff2cc;strokeColor=default;swimlaneFillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="154" y="1314" width="1080" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-83" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="750" width="300" height="122.5" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-37" value="CDP_CUSTOMER_SEGMENT_CALCULATION" style="text;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="145" y="755.75" width="260" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-38" value="CDP_CUSTOMER_SEGMENT_IMPORT" style="text;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="145" y="791.25" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-39" value="CDP_CID_CHANNEL_CUSTOMER" style="text;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="831.25" width="210" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x_W76neEEtvd7lcD01PX-71">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="750" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="270" y="680" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-102" value="从starrocks 分批获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_W76neEEtvd7lcD01PX-84">
-          <mxGeometry x="-0.3467" y="3" relative="1" as="geometry">
-            <mxPoint x="-6" y="33" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x_W76neEEtvd7lcD01PX-71" target="x_W76neEEtvd7lcD01PX-91">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-100" value="存储数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_W76neEEtvd7lcD01PX-92">
-          <mxGeometry x="-0.1263" y="1" relative="1" as="geometry">
-            <mxPoint x="16" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-71" value="CDP JOB Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="620" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-91" value="stage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="700" y="610" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-93" value="target" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="900" y="610" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x_W76neEEtvd7lcD01PX-91" target="x_W76neEEtvd7lcD01PX-93">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-105" value="当数据存储到stage完成后，在事务中转存数据到target" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="730" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-108" value="通过CDP_JOB_LOG表判断job是否执行完成，&lt;br&gt;只能通过import 的created字段感知当天是否有导入数据，如果没有数据则不运行。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="500" width="310" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-109" value="发送成功后，将每个批次的offset保存到CDP_SEGMENT_DELIVERY_LOG表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="660" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x_W76neEEtvd7lcD01PX-117" value="CDP JOB Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="174" y="980" width="113" height="978" as="geometry" />
