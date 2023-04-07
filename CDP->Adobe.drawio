@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-07T08:08:14.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tnVk8GKRDVqDjffhu6PP" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-07T08:09:34.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="B9_EpSl_rcYUtFJiR8En" version="21.1.4" type="github">
   <diagram name="第 1 页" id="dYUoFG49znBWoF7892X2">
     <mxGraphModel dx="1440" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-124" value="&lt;div&gt;1. 通过 CDP_CUSTOMER_SEGMENT_CALCULATION&lt;/div&gt;&lt;div&gt;/&amp;nbsp;CDP_CUSTOMER_SEGMENT_IMPORT&lt;/div&gt;&lt;div&gt;查询当天是否有新的数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_W76neEEtvd7lcD01PX-121">
+        <mxCell id="x_W76neEEtvd7lcD01PX-124" value="&lt;div&gt;通过 CDP_CUSTOMER_SEGMENT_CALCULATION&lt;/div&gt;&lt;div&gt;/&amp;nbsp;CDP_CUSTOMER_SEGMENT_IMPORT&lt;/div&gt;&lt;div&gt;查询当天是否有新的数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x_W76neEEtvd7lcD01PX-121">
           <mxGeometry x="-0.0298" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -123,7 +123,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x_W76neEEtvd7lcD01PX-131" value="2. 将同步的日志信息出入到CDP_SEGMENT_DELIVERY_LOG表" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="x_W76neEEtvd7lcD01PX-130">
+        <mxCell id="x_W76neEEtvd7lcD01PX-131" value="将同步的日志信息出入到CDP_SEGMENT_DELIVERY_LOG表" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="x_W76neEEtvd7lcD01PX-130">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="236" y="1184" as="sourcePoint" />
             <mxPoint x="424" y="1204" as="targetPoint" />
